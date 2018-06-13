@@ -46,3 +46,8 @@ class Briefcase:
             last_day = day_delta[i]
         return day_delta
 
+    @staticmethod
+    def start_date_match(start_date, end_date, **kw):
+        first_date = ""
+
+        return first_date
